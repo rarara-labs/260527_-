@@ -185,8 +185,10 @@ def save_alarm_history(hist):
         r = requests.put(url, json=payload, headers=_gh_headers(), timeout=15)
         if r.status_code in (200, 201):
             st.session_state['_hist_sha'] = r.json()['content']['sha']
-    except Exception:
-        pass
+        else:
+            st.session_state['_hist_save_error'] = f"GitHub 저장 실패: {r.status_code} {r.text[:200]}"
+    except Exception as e:
+        st.session_state['_hist_save_error'] = f"GitHub 저장 예외: {e}"
 
 @st.cache_data(ttl=300)
 def build_alarm_map(_data):
@@ -588,6 +590,10 @@ df_processed['알람'] = df_processed.apply(_get_hist_alarm, axis=1)
 if _hist_updated:
     save_alarm_history(_alarm_hist)
 
+
+# GitHub 저장 에러 표시 (디버깅용)
+if st.session_state.get('_hist_save_error'):
+    st.error(f"⚠️ {st.session_state['_hist_save_error']}")
 
 tab1,tab2,tab3,tab4,tab5,tab6 = st.tabs([
     "🔔 금일 알람", "📡 중계기·MIBOS", "🔔 기타 알람", "🕐 13시 알람",
