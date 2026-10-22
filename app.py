@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import json
+import base64
 import pandas as pd
 import re
 import io
@@ -141,24 +142,49 @@ def load_data(url):
     return data
 
 
-# ── 알람 히스토리 저장/로드 (날짜별 Port→알람 영구 보존) ──
-ALARM_HIST_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'alarm_history.json')
+# ── 알람 히스토리 저장/로드 (GitHub 영구 보존) ──
+_GITHUB_REPO      = "ons-jinju/260527_-"
+_GITHUB_HIST_FILE = "alarm_history.json"
+
+def _gh_headers():
+    token = st.secrets.get("GITHUB_TOKEN", "")
+    return {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
 
 def load_alarm_history():
-    """날짜별 알람 히스토리 로드: {날짜str: {port: alarm}}"""
-    if os.path.exists(ALARM_HIST_PATH):
-        try:
-            with open(ALARM_HIST_PATH, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception:
-            pass
+    """GitHub에서 알람 히스토리 로드 (재배포해도 보존)"""
+    try:
+        url = f"https://api.github.com/repos/{_GITHUB_REPO}/contents/{_GITHUB_HIST_FILE}"
+        r = requests.get(url, headers=_gh_headers(), timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            content = base64.b64decode(data['content']).decode('utf-8')
+            st.session_state['_hist_sha'] = data['sha']   # 업데이트시 SHA 필요
+            return json.loads(content)
+        # 파일 없으면 빈 dict 반환 (첫 실행)
+    except Exception:
+        pass
     return {}
 
 def save_alarm_history(hist):
-    """알람 히스토리 저장"""
+    """GitHub에 알람 히스토리 저장 (커밋)"""
     try:
-        with open(ALARM_HIST_PATH, 'w', encoding='utf-8') as f:
-            json.dump(hist, f, ensure_ascii=False, indent=2)
+        content_b64 = base64.b64encode(
+            json.dumps(hist, ensure_ascii=False, indent=2).encode('utf-8')
+        ).decode('utf-8')
+        url = f"https://api.github.com/repos/{_GITHUB_REPO}/contents/{_GITHUB_HIST_FILE}"
+        payload = {
+            "message": f"alarm history update {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+            "content": content_b64,
+        }
+        sha = st.session_state.get('_hist_sha')
+        if sha:
+            payload['sha'] = sha   # 기존 파일 업데이트
+        r = requests.put(url, json=payload, headers=_gh_headers(), timeout=15)
+        if r.status_code in (200, 201):
+            st.session_state['_hist_sha'] = r.json()['content']['sha']
     except Exception:
         pass
 
