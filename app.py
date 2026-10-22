@@ -528,12 +528,14 @@ _today_alarm_dict = {
     for _, row in df_today.iterrows()
     if row.get('_alarm')
 }
+st.session_state['_debug_today_alarms'] = len(_today_alarm_dict)
 if _today_alarm_dict:
     _alarm_hist[_today_key] = _today_alarm_dict
     # Port 단독 저장 (날짜 무관 영구 보존 - 전체 RAW 역대 알람 표시용)
     _ports_store = _alarm_hist.setdefault('_ports', {})
     _ports_store.update(_today_alarm_dict)
     save_alarm_history(_alarm_hist)
+    st.session_state['_debug_saved'] = True
 
 # 전체 RAW 중복제거 + 복구여부
 df_processed = process_oos(df_oos, today)
@@ -591,9 +593,16 @@ if _hist_updated:
     save_alarm_history(_alarm_hist)
 
 
-# GitHub 저장 에러 표시 (디버깅용)
+# GitHub 저장 디버그 표시
+_dbg_cnt = st.session_state.get('_debug_today_alarms', -1)
+if _dbg_cnt == -1:
+    st.info("ℹ️ 디버그: 아직 저장 시도 전")
+elif _dbg_cnt == 0:
+    st.warning("⚠️ 디버그: 오늘 알람 없음 → 저장 안 함")
+elif st.session_state.get('_debug_saved'):
+    st.success(f"✅ 디버그: 오늘 알람 {_dbg_cnt}개 저장 시도")
 if st.session_state.get('_hist_save_error'):
-    st.error(f"⚠️ {st.session_state['_hist_save_error']}")
+    st.error(f"❌ {st.session_state['_hist_save_error']}")
 
 tab1,tab2,tab3,tab4,tab5,tab6 = st.tabs([
     "🔔 금일 알람", "📡 중계기·MIBOS", "🔔 기타 알람", "🕐 13시 알람",
