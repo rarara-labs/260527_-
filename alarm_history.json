@@ -2056,5 +2056,18 @@
   },
   "2026-01-14": {
     "kn-Jinju-daegok2-GX03_00": "Link Failure"
+  },
+  "2026-10-23": {
+    "hamyangjigok3DC0_08": "Link Failure",
+    "kn-hapcheon-ssangbaek2-GX08_02": "FRU General Problem",
+    "kn-namhae-mijo3-GX01_03": "FRU General Problem",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
+    "kn-hamyang-gunja-GX03_03": "Link Failure",
+    "hapcheonhaeinsaNX4_09": "Link Failure",
+    "hadong-hoengcheon4-NX0_05": "Link Failure",
+    "geochangbuksang2NX1_02": "Input Power Failure",
+    "kn-geochang-ungyang3-GX04_04": "FRU General Problem",
+    "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
+    "geochang3NX0_04": "Link Failure"
   }
 }
