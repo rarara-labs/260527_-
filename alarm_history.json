@@ -892,7 +892,20 @@
     "hapcheon-hapcheon-DB0_07": "VSWR Over Threshold",
     "Jinju-hotan-NX10_08": "PLMN Service Redundancy Lost, VSWR Over Threshold",
     "JinjusugokNX2_11": "External Link to GNodeB Failure, PLMN Service Redundancy Lost, VSWR Over Threshold",
-    "kn-Jinju-daegok2-GX03_00": "Link Failure"
+    "kn-Jinju-daegok2-GX03_00": "Link Failure",
+    "kn-geochang-buksang2-GX02_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-uiryeong-bongsu2GX09_00": "VSWR Over Threshold",
+    "kn-uiryeong-bongsu2GX03_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-uiryeong-bongsu2GX03_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-hadong-hoengcheon3-GX03_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-hadong-hoengcheon3-GX03_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-Jinju-hotan-GX20_06": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "Jinju-hotan-LW213_41": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded",
+    "Jinju-hotan-LW213_40": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded",
+    "kn-hadong-geumseong3-GX04_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-uiryeong-daeui-GX02_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-hadong-geumseong3-GX14_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "jinju-hadae-TB1_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -944,7 +957,8 @@
   },
   "2026-10-14": {
     "jinju-insa-TB2_10": "Fan Failure",
-    "geochang-sinwon3-NX1_06": "HW Fault"
+    "geochang-sinwon3-NX1_06": "HW Fault",
+    "kn-geochang-buksang2-GX02_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-10-13": {
     "kn-Jinju-hotan-GX09_05": "XnC Link to GNodeB Failure",
@@ -1212,7 +1226,10 @@
     "namhae-seolcheon-NX1_36": "HW Partial Fault, PLMN Service Redundancy Lost",
     "namhae-seolcheon-NX1_26": "HW Partial Fault, PLMN Service Redundancy Lost",
     "namhae-seolcheon-NX1_06": "HW Partial Fault, PLMN Service Redundancy Lost",
-    "sanchung-wonri2-NX3_01": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold"
+    "sanchung-wonri2-NX3_01": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
+    "kn-uiryeong-bongsu2GX09_00": "VSWR Over Threshold",
+    "kn-uiryeong-bongsu2GX03_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-uiryeong-bongsu2GX03_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
   },
   "2026-08-27": {
     "kn-jinju-hadae-GX31_02": "XnC Link to GNodeB Failure",
@@ -1276,7 +1293,8 @@
     "JinjuyibanNX1_24": "External Link to GNodeB Failure, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "JinjuyibanNX1_34": "VSWR Over Threshold",
     "jinju-hadae-DB3_25": "HW Partial Fault, PLMN Service Redundancy Lost",
-    "kn-jinju-hadae-GX37_05": "Link Failure"
+    "kn-jinju-hadae-GX37_05": "Link Failure",
+    "kn-hadong-hoengcheon3-GX03_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-08-19": {
     "UiryeongTB0_00": "VSWR Over Threshold",
@@ -1287,7 +1305,9 @@
     "kn-jinju-insa-20-03_00": "Link Failure",
     "kn-namhae-changsun-GX04_05": "Link Failure",
     "kn-jinju-hadae-GX20_00": "VSWR Over Threshold",
-    "kn-sanchung-gemuseo-GX06_07": "Link Failure"
+    "kn-sanchung-gemuseo-GX06_07": "Link Failure",
+    "kn-hadong-hoengcheon3-GX03_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-Jinju-hotan-GX20_06": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-08-18": {
     "hamyang-hyucheon3-NX1_02": "External Link to GNodeB Failure, HW Partial Fault, NE and OSS alarms are not in sync, PLMN Service Redundancy Lost, VSWR Over Threshold",
@@ -1340,7 +1360,8 @@
     "kn-hamyang-hyoocheon2-GX05_00": "Link Failure",
     "sanchung-wonri2-NX0_02": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "hamyangyurimNX0_08": "PLMN Service Redundancy Lost, VSWR Over Threshold",
-    "kn-sanchung-sinan2-GX01_01": "Link Failure"
+    "kn-sanchung-sinan2-GX01_01": "Link Failure",
+    "Jinju-hotan-LW213_41": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded"
   },
   "2026-08-03": {
     "kn-hadong-hoengcheon3-GX05_03": "Link Failure",
@@ -1349,7 +1370,8 @@
     "hamyang-seosang3-NX0_32": "PLMN Service Redundancy Lost, VSWR Over Threshold",
     "hamyangsudongTA0_07": "Link Failure",
     "hamyanggunjaTA1_00": "Link Failure",
-    "kn-hamyang-gunja-GX07_02": "Link Failure"
+    "kn-hamyang-gunja-GX07_02": "Link Failure",
+    "kn-hadong-geumseong3-GX04_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-07-29": {
     "kn-Jinju-hotan-GX26_06": "XnC Link to GNodeB Failure",
@@ -1366,7 +1388,8 @@
   },
   "2026-08-04": {
     "kn-jinju-hadae-GX02_07": "XnC Link to GNodeB Failure",
-    "kn-jinju-hadae-GX02_06": "XnC Link to GNodeB Failure"
+    "kn-jinju-hadae-GX02_06": "XnC Link to GNodeB Failure",
+    "Jinju-hotan-LW213_40": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded"
   },
   "2026-07-24": {
     "namhae-seomyeon2-NX1_04": "HW Partial Fault, Link Degraded, PLMN Service Redundancy Lost",
@@ -1593,7 +1616,8 @@
   },
   "2026-06-11": {
     "kn-sacheon-donggeum-GX15_08": "Link Failure",
-    "kn-sacheon-donggeum-GX15_04": "Link Failure"
+    "kn-sacheon-donggeum-GX15_04": "Link Failure",
+    "kn-uiryeong-daeui-GX02_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
   },
   "2026-06-05": {
     "jinju-insa-TC7_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded",
@@ -1835,7 +1859,8 @@
     "Jinju-hotan-LW231_33": "PLMN Service Redundancy Lost, VSWR Over Threshold",
     "Jinju-hotan-LW231_13": "VSWR Over Threshold",
     "namhae-nammyeon2-NX0_03": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
-    "namhae-nammyeon2-NX0_10": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold"
+    "namhae-nammyeon2-NX0_10": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
+    "jinju-hadae-TB1_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-03-19": {
     "jinju-insa-TC1_01": "HW Partial Fault",
@@ -2069,5 +2094,8 @@
     "kn-geochang-ungyang3-GX04_04": "FRU General Problem",
     "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
     "geochang3NX0_04": "Link Failure"
+  },
+  "2026-04-28": {
+    "kn-hadong-geumseong3-GX14_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   }
 }
