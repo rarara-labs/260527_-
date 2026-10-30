@@ -147,7 +147,7 @@
     "sanchungDA0_13": "Link Failure",
     "hapcheon-daebyeong2-NX1_07": "PLMN Service Redundancy Lost",
     "kn-jinju-sabong-GX01_02": "XnC Link to GNodeB Failure",
-    "hapcheon-hapcheon-DA2_07": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, PLMN Service Redundancy Lost, VSWR Over Threshold",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
     "kn-sanchung-sinan2-GX04_00": "Link Failure",
     "jinju-insa-QD6_00": "Input Power Failure",
     "jinju-insa-DB2_22": "External Link to GNodeB Failure, PLMN Service Redundancy Lost",
@@ -931,7 +931,9 @@
     "kn-hadong-okjong2-GX13_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
     "kn-hadong-okjong2-GX13_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
     "kn-geochang-ungyang3-GX05_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
-    "kn-hamyang-seosang3-GX05_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
+    "kn-hamyang-seosang3-GX05_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-Jinju-jiphyeon3-GX04_00": "Link Failure",
+    "kn-namhae-yidong-GX07_03": "Input Power Failure"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2178,5 +2180,16 @@
     "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
     "kn-hamyang-gunja-GX03_03": "Link Failure",
     "geochang3NX0_04": "Link Failure"
+  },
+  "2026-10-30": {
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "kn-Jinju-jiphyeon3-GX04_00": "Link Failure",
+    "kn-namhae-yidong-GX07_03": "Input Power Failure",
+    "kn-Jinju-munsan2-GX03_01": "No Connection",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "kn-Jinju-hotan-GX20_06": "Link Failure",
+    "kn-Jinju-hotan-GX50_04": "Link Failure",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
+    "kn-hamyang-gunja-GX03_03": "Link Failure"
   }
 }
