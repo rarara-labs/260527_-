@@ -169,20 +169,34 @@ def load_alarm_history():
     return {}
 
 def save_alarm_history(hist):
-    """GitHub에 알람 히스토리 저장 (커밋)"""
+    """GitHub에 알람 히스토리 저장 (커밋). 409 충돌 시 최신 SHA로 재시도."""
     try:
         content_b64 = base64.b64encode(
             json.dumps(hist, ensure_ascii=False, indent=2).encode('utf-8')
         ).decode('utf-8')
         url = f"https://api.github.com/repos/{_GITHUB_REPO}/contents/{_GITHUB_HIST_FILE}"
-        payload = {
-            "message": f"alarm history update {datetime.now().strftime('%Y-%m-%d %H:%M')}",
-            "content": content_b64,
-        }
+        hdrs = _gh_headers()
+
+        def _do_put(sha):
+            payload = {
+                "message": f"alarm history update {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+                "content": content_b64,
+            }
+            if sha:
+                payload['sha'] = sha
+            return requests.put(url, json=payload, headers=hdrs, timeout=15)
+
         sha = st.session_state.get('_hist_sha')
-        if sha:
-            payload['sha'] = sha   # 기존 파일 업데이트
-        r = requests.put(url, json=payload, headers=_gh_headers(), timeout=15)
+        r = _do_put(sha)
+
+        if r.status_code == 409:
+            # SHA 충돌 → 최신 SHA 다시 조회 후 재시도
+            r2 = requests.get(url, headers=hdrs, timeout=10)
+            if r2.status_code == 200:
+                latest_sha = r2.json()['sha']
+                st.session_state['_hist_sha'] = latest_sha
+                r = _do_put(latest_sha)
+
         if r.status_code in (200, 201):
             st.session_state['_hist_sha'] = r.json()['content']['sha']
         else:
@@ -528,14 +542,12 @@ _today_alarm_dict = {
     for _, row in df_today.iterrows()
     if row.get('_alarm')
 }
-st.session_state['_debug_today_alarms'] = len(_today_alarm_dict)
 if _today_alarm_dict:
     _alarm_hist[_today_key] = _today_alarm_dict
     # Port 단독 저장 (날짜 무관 영구 보존 - 전체 RAW 역대 알람 표시용)
     _ports_store = _alarm_hist.setdefault('_ports', {})
     _ports_store.update(_today_alarm_dict)
     save_alarm_history(_alarm_hist)
-    st.session_state['_debug_saved'] = True
 
 # 전체 RAW 중복제거 + 복구여부
 df_processed = process_oos(df_oos, today)
@@ -593,16 +605,6 @@ if _hist_updated:
     save_alarm_history(_alarm_hist)
 
 
-# GitHub 저장 디버그 표시
-_dbg_cnt = st.session_state.get('_debug_today_alarms', -1)
-if _dbg_cnt == -1:
-    st.info("ℹ️ 디버그: 아직 저장 시도 전")
-elif _dbg_cnt == 0:
-    st.warning("⚠️ 디버그: 오늘 알람 없음 → 저장 안 함")
-elif st.session_state.get('_debug_saved'):
-    st.success(f"✅ 디버그: 오늘 알람 {_dbg_cnt}개 저장 시도")
-if st.session_state.get('_hist_save_error'):
-    st.error(f"❌ {st.session_state['_hist_save_error']}")
 
 tab1,tab2,tab3,tab4,tab5,tab6 = st.tabs([
     "🔔 금일 알람", "📡 중계기·MIBOS", "🔔 기타 알람", "🕐 13시 알람",
