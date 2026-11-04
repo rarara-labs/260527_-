@@ -989,7 +989,8 @@
     "UiryeongNX6_00": "External Link to GNodeB Failure",
     "kn-hadong-bukcheon2-GX05_04": "XnC Link to GNodeB Failure",
     "sacheon-sacheon-TA2_06": "External Link to GNodeB Failure",
-    "sacheon-sacheon-TA2_11": "External Link to GNodeB Failure"
+    "sacheon-sacheon-TA2_11": "External Link to GNodeB Failure",
+    "sacheon-gonyang-LW176_06": "Link Failure"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2320,5 +2321,19 @@
     "UiryeonggaryeNX0_06": "External Link to GNodeB Failure, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "UiryeonggaryeNX0_05": "External Link to GNodeB Failure, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "kn-jinju-sabong-GX09_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, Link Degraded, VSWR Over Threshold, XnC Link to GNodeB Failure"
+  },
+  "2026-11-04": {
+    "kn-Jinju-munsan2-GX03_01": "FRU General Problem",
+    "sacheon-gonyang-LW176_06": "Link Failure",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "jinju-hadae-TB2_06": "FRU General Problem",
+    "kn-Jinju-munsan3-GX11_01": "Link Failure",
+    "kn-Jinju-munsan3-GX11_00": "Link Failure",
+    "jinju-insa-TA2_08": "RF Reflected Power High, VSWR Over Threshold",
+    "kn-uiryeong-uiryeong-GX11_04": "FRU General Problem",
+    "gwangyangohsaNX0_14": "Link Failure",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
+    "kn-hamyang-gunja-GX03_03": "Link Failure"
   }
 }
