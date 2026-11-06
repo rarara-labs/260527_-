@@ -1027,7 +1027,8 @@
     "kn-jinju-myeongseok-GX07_00": "Link Failure",
     "jinjumyeongseokTA0_42": "PLMN Service Redundancy Lost",
     "jinjumyeongseokTA0_12": "PLMN Service Redundancy Lost",
-    "jinjumyeongseokTA0_32": "PLMN Service Redundancy Lost"
+    "jinjumyeongseokTA0_32": "PLMN Service Redundancy Lost",
+    "sancheong-samjang-NX0_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2410,7 +2411,8 @@
     "gwangyangohsaNX0_14": "Link Failure",
     "hamyangjigok3DC0_08": "Link Failure",
     "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
-    "kn-hamyang-gunja-GX03_03": "Link Failure"
+    "kn-hamyang-gunja-GX03_03": "Link Failure",
+    "sancheong-samjang-NX0_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold"
   },
   "2026-04-09": {
     "kn-jinju-insa-20-01_11": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
