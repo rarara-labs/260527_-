@@ -1021,7 +1021,13 @@
     "kn-jinju-insa-GX53_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
     "kn-jinju-insa-20-06_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
     "kn-sanchung-gemuseo-GX10_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
-    "kn-sanchung-gemuseo-GX10_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
+    "kn-sanchung-gemuseo-GX10_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-geochang-gajo2-GX01_02": "Link Failure",
+    "sacheon-gonmyeong4-NX1_00": "SW Error",
+    "kn-jinju-myeongseok-GX07_00": "Link Failure",
+    "jinjumyeongseokTA0_42": "PLMN Service Redundancy Lost",
+    "jinjumyeongseokTA0_12": "PLMN Service Redundancy Lost",
+    "jinjumyeongseokTA0_32": "PLMN Service Redundancy Lost"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2415,5 +2421,24 @@
     "kn-jinju-insa-20-06_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
     "kn-sanchung-gemuseo-GX10_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
     "kn-sanchung-gemuseo-GX10_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
+  },
+  "2026-11-06": {
+    "kn-geochang-gajo2-GX01_02": "Link Failure",
+    "sacheon-gonmyeong4-NX1_00": "SW Error",
+    "kn-jinju-myeongseok-GX07_00": "Link Failure",
+    "jinjumyeongseokTA0_42": "PLMN Service Redundancy Lost",
+    "jinjumyeongseokTA0_12": "PLMN Service Redundancy Lost",
+    "jinjumyeongseokTA0_32": "PLMN Service Redundancy Lost",
+    "jinju-hadae-DA6_01": "FRU General Problem",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "kn-geochang-jusang-GX08_02": "HW Partial Fault",
+    "kn-uiryeong-uiryeong-GX11_04": "FRU General Problem",
+    "jinju-hadae-TB2_06": "FRU General Problem",
+    "kn-Jinju-munsan3-GX11_01": "Link Failure",
+    "kn-Jinju-munsan3-GX11_00": "Link Failure",
+    "gwangyangohsaNX0_14": "Link Failure",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
+    "kn-hamyang-gunja-GX03_03": "Link Failure"
   }
 }
