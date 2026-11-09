@@ -1035,7 +1035,11 @@
     "sacheon5NX5_01": "Link Failure",
     "hadong-okjong2-NX3_07": "Input Power Failure",
     "kn-hadong-okjong2-GX02_00": "Input Power Failure",
-    "kn-hadong-okjong2-GX02_01": "Input Power Failure"
+    "kn-hadong-okjong2-GX02_01": "Input Power Failure",
+    "hadong-geumnam-LW67_10": "Feature Resource Missing, PLMN Service Redundancy Lost",
+    "hadong-geumnam-LW67_30": "Feature Resource Missing, PLMN Service Redundancy Lost",
+    "hadong-geumnam-LW67_40": "Feature Resource Missing, PLMN Service Redundancy Lost",
+    "kn-jinju-jeongchon-GX01_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -1227,7 +1231,10 @@
   "2026-09-15": {
     "kn-Jinju-jisu2-GX03_02": "XnC Link to GNodeB Failure",
     "Jinjujisu2-LW114_08": "HW Partial Fault, MO Configuration Not Consistent With Installed Equipment, PLMN Service Redundancy Lost",
-    "kn-jinju-seongbuk-10-02_07": "Input Power Failure"
+    "kn-jinju-seongbuk-10-02_07": "Input Power Failure",
+    "hadong-geumnam-LW67_10": "Feature Resource Missing, PLMN Service Redundancy Lost",
+    "hadong-geumnam-LW67_30": "Feature Resource Missing, PLMN Service Redundancy Lost",
+    "hadong-geumnam-LW67_40": "Feature Resource Missing, PLMN Service Redundancy Lost"
   },
   "2026-09-14": {
     "jinju-insa-LW91_14": "External Link to GNodeB Failure, Feature Resource Missing, PLMN Service Redundancy Lost",
@@ -1611,7 +1618,8 @@
     "sanchungsinan2LW62_05": "External Link to GNodeB Failure, Feature Resource Missing, PLMN Service Redundancy Lost",
     "hadongjingyo2NX1_33": "PLMN Service Redundancy Lost, VSWR Over Threshold",
     "kn-sacheon-yonghyunW-GX08_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
-    "kn-sacheon-yonghyunW-GX08_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
+    "kn-sacheon-yonghyunW-GX08_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-jinju-jeongchon-GX01_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-07-13": {
     "kn-sacheon-donggeum-GX04_00": "Link Failure",
