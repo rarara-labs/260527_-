@@ -1043,7 +1043,8 @@
     "namhae-nammyeon-NX1_36": "Link Failure",
     "jinju-hadae-QB1_12": "Link Failure",
     "jinju-hadae-QB1_03": "Link Failure",
-    "jinju-hadae-QB1_06": "Link Failure"
+    "jinju-hadae-QB1_06": "Link Failure",
+    "Jinju-hotan-LW205_12": "VSWR Over Threshold"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2081,7 +2082,8 @@
     "kn-sanchung-gemuseo-GX06_01": "Link Failure"
   },
   "2026-03-12": {
-    "hadongakyangNX0_07": "HW Partial Fault, PLMN Service Redundancy Lost, Resource Activation Timeout, VSWR Over Threshold"
+    "hadongakyangNX0_07": "HW Partial Fault, PLMN Service Redundancy Lost, Resource Activation Timeout, VSWR Over Threshold",
+    "Jinju-hotan-LW205_12": "VSWR Over Threshold"
   },
   "2026-03-11": {
     "Jinju-hotan-LW203_09": "FRU General Problem",
