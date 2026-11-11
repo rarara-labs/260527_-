@@ -1046,7 +1046,8 @@
     "jinju-hadae-QB1_06": "Link Failure",
     "Jinju-hotan-LW205_12": "VSWR Over Threshold",
     "kn-uiryeong-uiryeongchilgok-GX06_01": "No Connection",
-    "kn-uiryeong-nakseoGX04_00": "Input Power Failure"
+    "kn-uiryeong-nakseoGX04_00": "Input Power Failure",
+    "kn-hadong-gojeon-GX18_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2517,5 +2518,8 @@
     "hamyangjigok3DC0_08": "Link Failure",
     "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
     "kn-hamyang-gunja-GX03_03": "Link Failure"
+  },
+  "2026-02-04": {
+    "kn-hadong-gojeon-GX18_03": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   }
 }
