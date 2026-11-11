@@ -1044,7 +1044,9 @@
     "jinju-hadae-QB1_12": "Link Failure",
     "jinju-hadae-QB1_03": "Link Failure",
     "jinju-hadae-QB1_06": "Link Failure",
-    "Jinju-hotan-LW205_12": "VSWR Over Threshold"
+    "Jinju-hotan-LW205_12": "VSWR Over Threshold",
+    "kn-uiryeong-uiryeongchilgok-GX06_01": "No Connection",
+    "kn-uiryeong-nakseoGX04_00": "Input Power Failure"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2499,6 +2501,18 @@
     "kn-uiryeong-uiryeong-GX11_04": "FRU General Problem",
     "kn-Jinju-munsan3-GX11_01": "Link Failure",
     "kn-Jinju-munsan3-GX11_00": "Link Failure",
+    "gwangyangohsaNX0_14": "Link Failure",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
+    "kn-hamyang-gunja-GX03_03": "Link Failure"
+  },
+  "2026-11-11": {
+    "kn-uiryeong-uiryeongchilgok-GX06_01": "No Connection",
+    "kn-uiryeong-nakseoGX04_00": "Input Power Failure",
+    "namhae-nammyeon-NX1_36": "Link Failure",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "hadongTA0_03": "Link Failure",
+    "kn-uiryeong-uiryeong-GX11_04": "FRU General Problem",
     "gwangyangohsaNX0_14": "Link Failure",
     "hamyangjigok3DC0_08": "Link Failure",
     "kn-hamyang-gyosan-GX05_08": "FRU General Problem",
