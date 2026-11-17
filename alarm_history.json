@@ -1083,7 +1083,8 @@
     "UiryeonggungyuTA0_00": "Input Power Failure",
     "kn-hadong-akyang-GX15_01": "Link Failure",
     "kn-hamyang-gunja-GX03_05": "Link Failure",
-    "hamyanggunjaTA1_03": "Link Failure"
+    "hamyanggunjaTA1_03": "Link Failure",
+    "jinju-hadae-TB4_09": "Input Power Failure"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2645,5 +2646,8 @@
     "gwangyangohsaNX0_14": "Link Failure",
     "hamyangjigok3DC0_08": "FRU General Problem",
     "kn-hamyang-gyosan-GX05_08": "FRU General Problem"
+  },
+  "2026-11-13": {
+    "jinju-hadae-TB4_09": "Input Power Failure"
   }
 }
