@@ -1084,7 +1084,12 @@
     "kn-hadong-akyang-GX15_01": "Link Failure",
     "kn-hamyang-gunja-GX03_05": "Link Failure",
     "hamyanggunjaTA1_03": "Link Failure",
-    "jinju-hadae-TB4_09": "Input Power Failure"
+    "jinju-hadae-TB4_09": "Input Power Failure",
+    "sanchunggeumseoNX02_13": "Link Failure",
+    "sanchunggeumseoNX02_12": "Link Failure",
+    "sanchung2NX0_04": "Link Failure",
+    "sanchung2NX0_00": "Link Failure",
+    "namhae-changseon2-NX2_02": "FRU General Problem"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2649,5 +2654,29 @@
   },
   "2026-11-13": {
     "jinju-hadae-TB4_09": "Input Power Failure"
+  },
+  "2026-11-18": {
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "hadongTA0_03": "Link Failure",
+    "sanchunggeumseoNX02_13": "Link Failure",
+    "sanchunggeumseoNX02_12": "Link Failure",
+    "sanchung2NX0_04": "Link Failure",
+    "sanchung2NX0_00": "Link Failure",
+    "namhae-changseon2-NX2_02": "FRU General Problem",
+    "kn-hadong-akyang-GX15_01": "Link Failure",
+    "kn-hamyang-gunja-GX03_04": "Link Failure",
+    "kn-hamyang-gunja-GX03_05": "Link Failure",
+    "hamyanggunjaTA1_03": "Link Failure",
+    "hamyanggunjaTA1_07": "Link Failure",
+    "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
+    "kn-Jinju-hotan-GX70_05": "Link Failure",
+    "geochangNX9_41": "Link Failure",
+    "jinju-hadae-QD3_09": "Link Failure",
+    "kn-uiryeong-uiryeong-GX11_04": "Input Power Failure",
+    "kn-uiryeong-uiryeongchilgok-GX06_01": "No Connection",
+    "namhae-nammyeon-NX1_36": "Link Failure",
+    "gwangyangohsaNX0_14": "Link Failure",
+    "hamyangjigok3DC0_08": "FRU General Problem",
+    "kn-hamyang-gyosan-GX05_08": "FRU General Problem"
   }
 }
