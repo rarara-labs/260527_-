@@ -1095,7 +1095,10 @@
     "kn-hapcheon-myosan2-GX03_01": "Link Failure",
     "jinju-hadae-DA3_04": "Link Failure",
     "jinju-hadae-DA3_24": "Link Failure",
-    "namhae-nammyeon3-NX0_05": "Link Failure"
+    "namhae-nammyeon3-NX0_05": "Link Failure",
+    "kn-jinju-jeongchon-GX17_00": "Critical Temperature Performance Degraded",
+    "kn-namhae-mijo3-GX02_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-hamyang-gyosan-GX07_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -1378,7 +1381,8 @@
     "kn-namhae-changsun4-GX04_01": "XnC Link to GNodeB Failure",
     "Uiryeongyongdeok2DA0_09": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "jinjugeumsanTC1_03": "PLMN Service Redundancy Lost",
-    "kn-sacheon-gonyangW-GX02_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
+    "kn-sacheon-gonyangW-GX02_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-jinju-jeongchon-GX17_00": "Critical Temperature Performance Degraded"
   },
   "2026-08-28": {
     "hapcheon-ssangbaek2-NX1_06": "PLMN Service Redundancy Lost, VSWR Over Threshold",
@@ -1800,7 +1804,8 @@
     "kn-hapcheon-yongju-GX15_03": "Link Failure",
     "namhae-mijo-NX0_00": "PLMN Service Redundancy Lost",
     "namhae-changseon2-NX2_00": "PLMN Service Redundancy Lost, VSWR Over Threshold",
-    "jinju-insa-QA4_06": "VSWR Over Threshold"
+    "jinju-insa-QA4_06": "VSWR Over Threshold",
+    "kn-namhae-mijo3-GX02_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-06-19": {
     "kn-Jinju-hotan-GX01_03": "Link Failure",
@@ -2062,7 +2067,8 @@
     "kn-hamyang-gyosan-NX09_33": "PLMN Service Redundancy Lost",
     "kn-hamyang-gyosan-NX09_13": "PLMN Service Redundancy Lost",
     "kn-hamyang-gunja-GX04_04": "Link Failure",
-    "kn-hamyang-gyosan-GX07_07": "Link Failure"
+    "kn-hamyang-gyosan-GX07_07": "Link Failure",
+    "kn-hamyang-gyosan-GX07_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
   },
   "2026-04-15": {
     "kn-hamyang-gyosan-GX22_06": "Link Failure"
