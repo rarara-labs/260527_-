@@ -770,7 +770,7 @@
     "kn-Jinju-yiban-GX07_00": "Link Failure",
     "hadongakyangNX0_07": "HW Partial Fault, PLMN Service Redundancy Lost, Resource Activation Timeout, VSWR Over Threshold",
     "Jinju-hotan-LW203_09": "FRU General Problem",
-    "geochangNX12_10": "PLMN Service Redundancy Lost, VSWR Over Threshold",
+    "geochangNX12_10": "Link Failure",
     "Uiryeongjijeong3NX0_13": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, PLMN Service Redundancy Lost",
     "jinju-insa-QB0_06": "External Alarm",
     "kn-sanchung-gemuseo-GX06_01": "Link Failure",
@@ -1098,7 +1098,16 @@
     "namhae-nammyeon3-NX0_05": "Link Failure",
     "kn-jinju-jeongchon-GX17_00": "Critical Temperature Performance Degraded",
     "kn-namhae-mijo3-GX02_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
-    "kn-hamyang-gyosan-GX07_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert"
+    "kn-hamyang-gyosan-GX07_08": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "sanchungsawolTA0_04": "Link Failure",
+    "kn-namhae-daesa-GX04_02": "Link Failure",
+    "JinjujeongchonDB1_10": "Input Power Failure",
+    "JinjujeongchonDB1_03": "Input Power Failure",
+    "jinju-insa-TA4_05": "Input Power Failure",
+    "jinju-insa-TA4_09": "Input Power Failure",
+    "UiryeongNX7_44": "Link Failure",
+    "JinjusabongDB0_05": "Link Failure",
+    "hapcheon-yulgok2-NX0_03": "PLMN Service Redundancy Lost"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2733,6 +2742,31 @@
     "kn-Jinju-hotan-GX70_05": "Link Failure",
     "kn-uiryeong-uiryeong-GX11_04": "Input Power Failure",
     "kn-uiryeong-uiryeongchilgok-GX06_01": "No Connection",
+    "namhae-nammyeon-NX1_36": "Link Failure"
+  },
+  "2026-11-21": {
+    "sanchungsawolTA0_04": "Link Failure",
+    "geochangNX12_10": "Link Failure",
+    "kn-namhae-daesa-GX04_02": "Link Failure",
+    "JinjujeongchonDB1_10": "Input Power Failure",
+    "JinjujeongchonDB1_03": "Input Power Failure",
+    "jinju-insa-TA4_05": "Input Power Failure",
+    "jinju-insa-TA4_09": "Input Power Failure",
+    "UiryeongNX7_44": "Link Failure",
+    "JinjusabongDB0_05": "Link Failure",
+    "kn-uiryeong-uiryeong-GX11_04": "Input Power Failure",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
+    "hapcheon-yulgok2-NX0_03": "PLMN Service Redundancy Lost",
+    "kn-hamyang-gunja-GX03_04": "Link Failure",
+    "kn-hamyang-gunja-GX03_03": "Link Failure",
+    "kn-sancheong-sicheon-10-01_02": "Input Power Failure",
+    "kn-sancheong-sicheon-10-01_03": "Input Power Failure",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "geochangNX9_41": "Link Failure",
+    "jinju-hadae-QD3_09": "Link Failure",
+    "hadongTA0_03": "Link Failure",
+    "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
+    "kn-Jinju-hotan-GX70_05": "Link Failure",
     "namhae-nammyeon-NX1_36": "Link Failure"
   }
 }
