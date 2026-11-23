@@ -1107,7 +1107,12 @@
     "jinju-insa-TA4_09": "Input Power Failure",
     "UiryeongNX7_44": "Link Failure",
     "JinjusabongDB0_05": "Link Failure",
-    "hapcheon-yulgok2-NX0_03": "PLMN Service Redundancy Lost"
+    "hapcheon-yulgok2-NX0_03": "PLMN Service Redundancy Lost",
+    "kn-sacheon-gonyang2-GX01_05": "PLMN Service Unavailable",
+    "kn-uiryeong-uiryeong-GX02_05": "XnC Link to GNodeB Failure",
+    "kn-sancheong-samjang-GX05_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-sancheong-samjang-GX05_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-sacheon-jeongeui2-GX23_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -1714,7 +1719,8 @@
     "hamyang-hyucheon3-NX0_05": "HW Partial Fault, PLMN Service Redundancy Lost, Resource Allocation Failure Service Degraded",
     "kn-hadong-jingyo-GX02_05": "Link Failure",
     "kn-hadong-jingyo-GX01_00": "Link Failure",
-    "hapcheon-daebyeong2-NX0_00": "PLMN Service Redundancy Lost"
+    "hapcheon-daebyeong2-NX0_00": "PLMN Service Redundancy Lost",
+    "kn-sacheon-gonyang2-GX01_05": "PLMN Service Unavailable"
   },
   "2026-07-08": {
     "hapcheon-yongju-NX1_11": "PLMN Service Redundancy Lost, VSWR Over Threshold",
@@ -1924,7 +1930,8 @@
     "guryeganjeonTB0_05": "HW Partial Fault, PLMN Service Redundancy Lost, VSWR Over Threshold",
     "kn-Jinju-hotan-GX13_05": "Link Failure",
     "kn-Jinju-hotan-GX13_06": "Link Failure",
-    "kn-gurye-ganjeon-GX07_02": "RET Failure"
+    "kn-gurye-ganjeon-GX07_02": "RET Failure",
+    "kn-uiryeong-uiryeong-GX02_05": "XnC Link to GNodeB Failure"
   },
   "2026-05-27": {
     "kn-geochang-sinwon3-GX02_02": "VSWR Over Threshold",
@@ -2343,7 +2350,8 @@
   },
   "2026-01-06": {
     "hadongyangboNX1_10": "External Link to GNodeB Failure, PLMN Service Redundancy Lost, VSWR Over Threshold",
-    "geochangNX12_09": "PLMN Service Redundancy Lost, VSWR Over Threshold"
+    "geochangNX12_09": "PLMN Service Redundancy Lost, VSWR Over Threshold",
+    "kn-sacheon-jeongeui2-GX23_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   },
   "2026-01-05": {
     "hapcheon-hapcheon-DB0_27": "PLMN Service Redundancy Lost, VSWR Over Threshold",
@@ -2768,5 +2776,9 @@
     "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
     "kn-Jinju-hotan-GX70_05": "Link Failure",
     "namhae-nammyeon-NX1_36": "Link Failure"
+  },
+  "2026-03-09": {
+    "kn-sancheong-samjang-GX05_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
+    "kn-sancheong-samjang-GX05_04": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert"
   }
 }
