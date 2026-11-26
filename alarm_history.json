@@ -949,7 +949,7 @@
     "kn-uiryeong-jijeongGX08_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
     "kn-sacheon-gonyangW-GX02_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
     "kn-uiryeong-uiryeong-GX23_01": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
-    "kn-uiryeong-bongsu2GX12_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
+    "kn-uiryeong-bongsu2GX12_02": "Link Failure",
     "kn-sacheon-sacheon-GX15_02": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, System Restart Alert",
     "jinju-insa-TB10_00": "External Link to GNodeB Failure",
     "kn-sacheon-yonghyunW-GX08_00": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert",
@@ -1106,7 +1106,7 @@
     "jinju-insa-TA4_05": "Input Power Failure",
     "jinju-insa-TA4_09": "Input Power Failure",
     "UiryeongNX7_44": "Link Failure",
-    "JinjusabongDB0_05": "Link Failure",
+    "JinjusabongDB0_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, External Link to GNodeB Failure, PLMN Service Redundancy Lost",
     "hapcheon-yulgok2-NX0_03": "PLMN Service Redundancy Lost",
     "kn-sacheon-gonyang2-GX01_05": "PLMN Service Unavailable",
     "kn-uiryeong-uiryeong-GX02_05": "XnC Link to GNodeB Failure",
@@ -1145,7 +1145,9 @@
     "jinju-insa-TB10_03": "Input Power Failure",
     "jinju-insa-TB10_11": "Input Power Failure",
     "jinju-insa-TB10_14": "Input Power Failure",
-    "jinju-insa-TB10_34": "Input Power Failure"
+    "jinju-insa-TB10_34": "Input Power Failure",
+    "kn-uiryeong-bongsu2GX04_02": "SW Error",
+    "kn-uiryeong-bongsu2GX13_00": "Link Failure"
   },
   "2026-10-21": {
     "kn-sanchung-sinan2-GX07_05": "Link Failure",
@@ -2901,6 +2903,34 @@
     "hapcheon-hapcheon-DA2_07": "FRU General Problem",
     "hamyangjigok3DC0_08": "Link Failure",
     "geochangNX9_41": "Link Failure",
+    "kn-Jinju-hotan-GX70_05": "Link Failure"
+  },
+  "2026-11-26": {
+    "sacheon-gonyang-LW176_09": "Link Failure",
+    "kn-hamyang-ohcheon-GX17_00": "Link Failure",
+    "kn-hamyang-gunja-GX04_05": "FRU General Problem",
+    "kn-geochang-gajo2-GX02_02": "Input Power Failure",
+    "kn-geochang-gajo2-GX01_02": "Input Power Failure",
+    "geochangNX12_10": "Input Power Failure",
+    "hamyangjigok3DC0_08": "Link Failure",
+    "geochangNX9_41": "Link Failure",
+    "geochanggajo2DA0_08": "Input Power Failure",
+    "geochanggajo2DA0_01": "Input Power Failure",
+    "geochangnamsang3DA0_08": "Link Failure",
+    "geochangnamsang3DA0_01": "Link Failure",
+    "kn-uiryeong-bongsu2GX04_02": "SW Error",
+    "JinjusabongDB0_05": "Cell Service Available Auto Recovery Successful Alert, Cell Service Unavailable Auto Recovery Initiated Alert, External Link to GNodeB Failure, PLMN Service Redundancy Lost",
+    "kn-hadong-hoengcheon4-GX09_00": "Link Failure",
+    "kn-uiryeong-bongsu2GX13_00": "Link Failure",
+    "kn-uiryeong-bongsu2GX12_02": "Link Failure",
+    "kn-sacheon-jeongeui2-GX03_04": "FRU General Problem",
+    "kn-sancheong-samjang-GX01_01": "FRU General Problem",
+    "namhae-nammyeon-NX1_36": "Link Failure",
+    "hadongTA0_03": "Link Failure",
+    "jinju-insa-TA4_05": "Input Power Failure",
+    "jinju-insa-TA4_09": "Input Power Failure",
+    "kn-uiryeong-uiryeong-GX11_04": "Input Power Failure",
+    "hapcheon-hapcheon-DA2_07": "FRU General Problem",
     "kn-Jinju-hotan-GX70_05": "Link Failure"
   }
 }
